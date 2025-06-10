@@ -20,10 +20,10 @@ function About() {
                 </p>
                 <p>
                     James is a proud founder and member of the all-Asian American improv group, <i>Club Asia</i>. James is also a proud ensemble member of <i>CIRCA Pintig</i>, one of the oldest
-                    Filipino-American theatre groups in the U.S, starring in their original works, <i>Panther In The SKy</i> and <i>Game of Trolls</i>. James has also appeared on <i>Chicago Med</i> as the guy who served Dr. Mitchell Ripley (court papers, sadly not breakdancing).
+                    Filipino-American theatre groups in the U.S, starring in their original works, <i>Panther In The Sky</i> and <i>Game of Trolls</i>. James has also appeared on <i>Chicago Med</i> as the guy who served Dr. Mitchell Ripley (court papers, sadly not breakdancing).
                 </p>
                 <p>
-                    When he's not writing or refining macrodata during his dayjob, he can be found cooking Filipino food and raising his three proud cat children with his wife.
+                    When he's not <a target="_blank" href="https://github.com/jmacapagal90/jamesmacapagal-actor-website">refining macrodata</a> for his dayjob, he can be found cooking Filipino food and raising his three proud cat children with his wife.
                 </p>
             </div>
         </section>
