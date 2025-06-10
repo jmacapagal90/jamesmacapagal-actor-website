@@ -18,9 +18,7 @@ function Hero() {
 
     return (
         <section id="hero" style={heroStyle} className="text-white">
-            <div className="hero-overlay">
-                <h1 className="hero-title" data-aos="zoom-in">james macapagal</h1>
-            </div>
+            <div className="hero-overlay"></div>
         </section>
     );
 }
