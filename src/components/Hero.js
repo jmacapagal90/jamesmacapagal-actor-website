@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
-import './Hero.css'; // keep for .hero-overlay etc.
+import './Hero.css';
 
 function Hero() {
 
@@ -17,11 +17,9 @@ function Hero() {
     };
 
     return (
-        <section id="hero" style={heroStyle} className="text-white d-flex align-items-center justify-content-center text-center">
+        <section id="hero" style={heroStyle} className="text-white">
             <div className="hero-overlay">
-                <div className="container">
-                    <h1 className="display-3" data-aos="zoom-in">james macapagal</h1>
-                </div>
+                <h1 className="hero-title" data-aos="zoom-in">james macapagal</h1>
             </div>
         </section>
     );
