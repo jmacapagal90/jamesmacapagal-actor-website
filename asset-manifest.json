@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jamesmacapagal-actor-website/static/css/main.9fe923e7.css",
-    "main.js": "/jamesmacapagal-actor-website/static/js/main.d6807984.js",
+    "main.js": "/jamesmacapagal-actor-website/static/js/main.09622be4.js",
     "static/js/453.52e1ada5.chunk.js": "/jamesmacapagal-actor-website/static/js/453.52e1ada5.chunk.js",
     "index.html": "/jamesmacapagal-actor-website/index.html",
     "main.9fe923e7.css.map": "/jamesmacapagal-actor-website/static/css/main.9fe923e7.css.map",
-    "main.d6807984.js.map": "/jamesmacapagal-actor-website/static/js/main.d6807984.js.map",
+    "main.09622be4.js.map": "/jamesmacapagal-actor-website/static/js/main.09622be4.js.map",
     "453.52e1ada5.chunk.js.map": "/jamesmacapagal-actor-website/static/js/453.52e1ada5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9fe923e7.css",
-    "static/js/main.d6807984.js"
+    "static/js/main.09622be4.js"
   ]
 }
