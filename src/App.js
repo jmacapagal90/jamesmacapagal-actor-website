@@ -11,7 +11,7 @@ function App() {
             {/* Main Headshot */}
             <img
               src="https://i.imgur.com/8v1J2VF.jpeg"
-              alt="James Macapagal Headshot"
+              alt="James Macapagal Headshot 2"
               className="img-fluid rounded-circle headshot my-4"
             />
             <h1 className="mb-4">James Macapagal</h1>
