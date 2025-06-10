@@ -5,7 +5,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
-    padding: 3rem 2rem 2rem 2rem; /* Top-right-corner placement */
+    padding: 4rem 2rem 2rem 2rem; /* Top-right-corner placement */
     box-sizing: border-box;
 }
 
