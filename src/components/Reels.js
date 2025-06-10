@@ -12,13 +12,12 @@ function Reels() {
             <div className="container">
                 <h2 className="mb-4">Reels</h2>
                 <h3>Demo Reel</h3>
-                <div className="ratio ratio-16x9 mb-4">
-                    <iframe
-                        src="https://www.youtube.com/embed/qZb6jWBPA4s"
-                        title="Reel"
-                        allowFullScreen
-                    ></iframe>
-                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qZb6jWBPA4s?si=nowoDQBTMI81WN2I"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen>
+                </iframe>
                 <p>Check out my performance reel above. More samples available on request.</p>
             </div>
         </section>
