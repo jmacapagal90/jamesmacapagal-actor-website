@@ -8,6 +8,10 @@ function Navbar() {
         setIsExpanded(!isExpanded);
     };
 
+    const handleLinkClick = () => {
+        setIsExpanded(false);
+    };
+
     return (
         <nav className={`navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm ${isExpanded ? "show" : ""}`}>
             <div className="container">
@@ -18,10 +22,14 @@ function Navbar() {
 
                 <div className={`collapse navbar-collapse ${isExpanded ? "show animated" : ""}`} id="navbarNav">
                     <ul className="navbar-nav ms-auto">
-                        <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#resume">Resume</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#reels">Reels</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#about"
+                                                    onClick={handleLinkClick}>About</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#resume"
+                                                    onClick={handleLinkClick}>Resume</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#reels"
+                                                    onClick={handleLinkClick}>Reels</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#contact"
+                                                    onClick={handleLinkClick}>Contact</a></li>
                     </ul>
                 </div>
             </div>
