@@ -9,7 +9,7 @@ function Hero() {
     }, []);
 
     const heroStyle = {
-        backgroundImage: 'url(/hero-bg.jpg)',
+        backgroundImage: `url(${process.env.PUBLIC_URL}/hero-bg.jpg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'top center',
         height: '100vh',
