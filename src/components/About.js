@@ -12,7 +12,7 @@ function About() {
             <div className="container">
                 <h2 className="mb-4">About</h2>
                 <p>
-                    James is an actor, comedian, and writer, born and raised in Chicago and based in Los Angeles. James is a proud graduate of <i>The Annoyance Theatre</i> improv program, <i>Green Shirt Studio's</i> Meisner program, and the On-Camera program at <i>Green Room Chicago</i>.
+                    James is an actor, comedian, and writer, born and raised in Chicago and based in Los Angeles. James is a proud graduate of <i>The Annoyance Theatre</i> improv program, <i>Green Shirt Studio</i> Meisner program, and the On-Camera program at <i>Green Room Chicago</i>.
                 </p>
                 <p>
                     James was an understudy for The Second City's 110th Mainstage Review, <i>Do The Right Thing, No Worries If Not</i>, backing up the indelible Evan Mills and Louie Cordon. He was an actor, writer, and executive producer for the
@@ -23,7 +23,7 @@ function About() {
                     Filipino-American theatre groups in the U.S, starring in their original works, <i>Panther In The Sky</i> and <i>Game of Trolls</i>. James has also appeared on <i>Chicago Med</i> as the guy who served Dr. Mitchell Ripley (court papers, sadly not breakdancing).
                 </p>
                 <p>
-                    When he's not <a target="_blank" href="https://github.com/jmacapagal90/jamesmacapagal-actor-website">refining macrodata</a> for his dayjob, he can be found cooking Filipino food and raising his three proud cat children with his wife.
+                    When he's not acting, he can be found coding (I built this <a target="_blank" href="https://github.com/jmacapagal90/jamesmacapagal-actor-website">website</a>!), cooking Filipino food, and doting his cats with his wife.
                 </p>
             </div>
         </section>
