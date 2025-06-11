@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import AOS from 'aos';
 import './Hero.css';
 
@@ -29,7 +29,7 @@ function Hero() {
 
     return (
         <section id="hero" style={heroStyle} className="text-white">
-            {/*<div className="hero-overlay"></div>*/}
+            <div className="hero-overlay"></div>
         </section>
     );
 }
