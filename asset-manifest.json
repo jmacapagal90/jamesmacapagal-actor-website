@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jamesmacapagal-actor-website/static/css/main.c6d97deb.css",
-    "main.js": "/jamesmacapagal-actor-website/static/js/main.44b7ab88.js",
-    "static/js/453.52e1ada5.chunk.js": "/jamesmacapagal-actor-website/static/js/453.52e1ada5.chunk.js",
-    "index.html": "/jamesmacapagal-actor-website/index.html",
-    "main.c6d97deb.css.map": "/jamesmacapagal-actor-website/static/css/main.c6d97deb.css.map",
-    "main.44b7ab88.js.map": "/jamesmacapagal-actor-website/static/js/main.44b7ab88.js.map",
-    "453.52e1ada5.chunk.js.map": "/jamesmacapagal-actor-website/static/js/453.52e1ada5.chunk.js.map"
+    "main.css": "/static/css/main.c6d97deb.css",
+    "main.js": "/static/js/main.1f4f5e58.js",
+    "static/js/453.52e1ada5.chunk.js": "/static/js/453.52e1ada5.chunk.js",
+    "index.html": "/index.html",
+    "main.c6d97deb.css.map": "/static/css/main.c6d97deb.css.map",
+    "main.1f4f5e58.js.map": "/static/js/main.1f4f5e58.js.map",
+    "453.52e1ada5.chunk.js.map": "/static/js/453.52e1ada5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6d97deb.css",
-    "static/js/main.44b7ab88.js"
+    "static/js/main.1f4f5e58.js"
   ]
 }
