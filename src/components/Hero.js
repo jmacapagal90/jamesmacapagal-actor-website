@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import './Hero.css';
 
@@ -14,22 +14,18 @@ function Hero() {
         AOS.refresh();
         const interval = setInterval(() => {
             setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 5000); // Change image every 5 seconds
+        }, 5000);
 
-        return () => clearInterval(interval); // Cleanup on unmount
+        return () => clearInterval(interval);
     }, [images.length]);
 
-    const heroStyle = {
-        backgroundImage: `url(${images[currentImageIndex]})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'top center',
-        height: '100vh',
-        position: 'relative'
-    };
-
     return (
-        <section id="hero" style={heroStyle} className="text-white">
-            <div className="hero-overlay"></div>
+        <section id="hero" className="hero-section">
+            <img
+                src={images[currentImageIndex]}
+                alt="Hero Background"
+                className="hero-img"
+            />
         </section>
     );
 }
