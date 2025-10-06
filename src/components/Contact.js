@@ -11,9 +11,8 @@ function Contact() {
         <section id="contact" className="py-5 bg-black text-light" data-aos="fade-down">
             <div className="container">
                 <h1 className="mb-4">Contact Me</h1>
-                <h5>Chicago - Non Union Commercial</h5>
-                <p>Jaclyn Hergott | 10 MGMT</p>
-                <p>jaclyn@10mgmt.com</p>
+                <li><strong>LA - ATB: <a href={"mailto:socaltalentagency@gmail.com"}>So Cal Talent</a></strong></li>
+                <li><strong>CHI - Non-Union: <a href={"mailto:jaclyn@10mgmt.com"}>10 MGMT</a></strong></li>
             </div>
         </section>
     );
