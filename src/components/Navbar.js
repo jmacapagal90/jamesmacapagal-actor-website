@@ -16,8 +16,7 @@ function Navbar() {
 
     const navLinks = (
         <ul className="navbar-nav ms-auto">
-            <li className="nav-item"><a className="nav-link" href="#about" onClick={handleLinkClick}>About</a></li>
-            <li className="nav-item"><a className="nav-link" href="#resume" onClick={handleLinkClick}>Resume</a></li>
+            <li className="nav-item"><a className="nav-link" href="#resume" onClick={handleLinkClick}>Links</a></li>
             <li className="nav-item"><a className="nav-link" href="#reels" onClick={handleLinkClick}>Reels</a></li>
             <li className="nav-item"><a className="nav-link" href="#contact" onClick={handleLinkClick}>Contact</a></li>
         </ul>

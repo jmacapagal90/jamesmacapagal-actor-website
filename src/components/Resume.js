@@ -16,7 +16,6 @@ function Resume() {
                     <li><strong><a target="_blank" href="https://www.imdb.com/name/nm10395228/?ref_=ext_shr_lnk">IMDB</a></strong></li>
                     <li><strong><a target="_blank" href="https://app.castingnetworks.com/talent/public-profile/e30288f0-f73e-11eb-b459-d1260cd4e210">Casting Networks</a></strong></li>
                 </ul>
-                <p>Writing samples upon request.</p>
             </div>
         </section>
     );

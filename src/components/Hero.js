@@ -7,9 +7,7 @@ function Hero() {
     const images = [
         `${process.env.PUBLIC_URL}/James_Macapagal_Theatrical_2025.jpg`,
         `${process.env.PUBLIC_URL}/James_Macapagal_Commercial_2025.jpg`,
-        `${process.env.PUBLIC_URL}/James_Macapagal_Comedic.jpg`,
-        `${process.env.PUBLIC_URL}/James_Macapagal_Theatrical.jpg`,
-        `${process.env.PUBLIC_URL}/James_Macapagal_Commercial.jpg`
+        `${process.env.PUBLIC_URL}/James_Macapagal_Comedic.jpg`
     ];
 
     useEffect(() => {
