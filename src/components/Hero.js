@@ -5,8 +5,8 @@ import './Hero.css';
 function Hero() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const images = [
-        `${process.env.PUBLIC_URL}/James_Macapagal_Theatrical_2025.jpg`,
         `${process.env.PUBLIC_URL}/James_Macapagal_Commercial_2025.jpg`,
+        `${process.env.PUBLIC_URL}/James_Macapagal_Theatrical_2025.jpg`,
         `${process.env.PUBLIC_URL}/James_Macapagal_Comedic.jpg`
     ];
 

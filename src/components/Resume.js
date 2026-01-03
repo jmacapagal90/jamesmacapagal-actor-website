@@ -10,7 +10,7 @@ function Resume() {
     return (
         <section id="resume" className="py-5 bg-black text-white" data-aos="fade-down">
             <div className="container">
-                <h2 className="mb-4">Resume</h2>
+                <h2 className="mb-4">Links</h2>
                 <ul className="list-unstyled">
                     <li><strong><a target="_blank" href="https://resumes.actorsaccess.com/jamesmacapagal">Actors Access</a></strong></li>
                     <li><strong><a target="_blank" href="https://www.imdb.com/name/nm10395228/?ref_=ext_shr_lnk">IMDB</a></strong></li>
