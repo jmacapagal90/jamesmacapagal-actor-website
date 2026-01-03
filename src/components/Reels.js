@@ -5,7 +5,7 @@ import AOS from "aos";
 function Reels() {
     const [youtubeLinkIndex, setYoutubeLinkIndex] = useState(0)
     const reels = [
-        "https://youtu.be/u_yvUtb1dSQ?si=LYzs5N3LujJxsnuj",
+        "https://youtu.be/hsDltqlULj4?si=PbwxqHAM29kyDuM6",
     ]
     useEffect(() => {
         AOS.refresh();
