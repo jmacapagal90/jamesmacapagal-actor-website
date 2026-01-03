@@ -6,7 +6,7 @@ function Navbar() {
     const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
 
     useEffect(() => {
-        const handleResize = () => setIsDesktop(window.innerWidth > 768);
+        const handleResize = () => setIsDesktop(window.innerWidth >= 821);
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
@@ -16,8 +16,9 @@ function Navbar() {
 
     const navLinks = (
         <ul className="navbar-nav ms-auto">
+            <li className="nav-item"><a className="nav-link" href="#reels" onClick={handleLinkClick}>Reel</a></li>
+            <li className="nav-item"><a className="nav-link" href="#hero" onClick={handleLinkClick}>Headshots</a></li>
             <li className="nav-item"><a className="nav-link" href="#resume" onClick={handleLinkClick}>Links</a></li>
-            <li className="nav-item"><a className="nav-link" href="#reels" onClick={handleLinkClick}>Reels</a></li>
             <li className="nav-item"><a className="nav-link" href="#contact" onClick={handleLinkClick}>Contact</a></li>
         </ul>
     );
@@ -25,7 +26,7 @@ function Navbar() {
     return (
         <nav className={`navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm ${isExpanded ? "show" : ""}`}>
             <div className="container">
-                <a className="navbar-brand" href="#hero">James Macapagal</a>
+                <a className="navbar-brand" href="#reels">James Macapagal</a>
                 <button className="navbar-toggler" type="button" onClick={handleToggle}>
                     <span className="navbar-toggler-icon"></span>
                 </button>
