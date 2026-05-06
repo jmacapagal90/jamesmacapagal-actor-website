@@ -5,6 +5,10 @@ function Reels() {
 
     return (
         <section id="reels" className="reels-section" data-aos="fade-down">
+            <div className="section-heading">
+                <p>Reel</p>
+                <h2>Watch James on camera.</h2>
+            </div>
             <div className="reels-video">
                 <iframe
                     src="https://www.youtube.com/embed/hsDltqlULj4?si=0HiDReBSQvN4O2J3"
