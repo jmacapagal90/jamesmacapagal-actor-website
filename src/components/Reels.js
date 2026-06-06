@@ -11,7 +11,7 @@ function Reels() {
             </div>
             <div className="reels-video">
                 <iframe
-                    src="https://www.youtube.com/embed/hsDltqlULj4?si=0HiDReBSQvN4O2J3"
+                    src="https://www.youtube.com/embed/0hu_OazuUFo"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
