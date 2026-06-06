@@ -1,0 +1,7 @@
+interface:
+  display_name: "James Actor Site Maintainer"
+  short_description: "Maintain and deploy James's acting website"
+  default_prompt: "Use $james-actor-site-maintainer to update and deploy my acting website."
+
+policy:
+  allow_implicit_invocation: true
