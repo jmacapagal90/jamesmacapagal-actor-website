@@ -1,0 +1,43 @@
+.voiceover-section {
+    width: 100%;
+    min-height: auto;
+    margin: 0;
+    padding: 88px 0 56px;
+    scroll-margin-top: 68px;
+    background-color: #050505;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.voiceover-video {
+    aspect-ratio: 16 / 9;
+    flex: none;
+    width: min(1120px, calc(100% - 40px));
+    margin: 0 auto;
+    min-height: 0;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.42);
+}
+
+.voiceover-video video {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .voiceover-section {
+        padding-top: 84px;
+    }
+
+    .voiceover-video {
+        width: min(100% - 28px, 1120px);
+    }
+}

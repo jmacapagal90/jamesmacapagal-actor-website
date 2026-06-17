@@ -17,7 +17,7 @@ function About() {
                     </div>
                     <div className="about-copy">
                         <p>
-                            James is an actor, comedian, and writer, born and raised in Chicago and based in Los Angeles. He trained at <i>The Annoyance Theatre</i>, <i>Green Shirt Studio</i>, and <i>Green Room Chicago</i>.
+                            James is an actor, comedian, and writer, born and raised in Chicago and based in Los Angeles. He trained at <i>The Annoyance Theatre</i>, <i>Green Shirt Studio</i>, and <i>Green Room Chicago</i>, and continues on-camera training at <i>The BGB Studio</i> in Sydney Walsh's On-Camera Workout class.
                         </p>
                         <p>
                             His background spans Second City, iO Comedy Network, Club Asia, CIRCA Pintig, and a television appearance on <i>Chicago Med</i>.
