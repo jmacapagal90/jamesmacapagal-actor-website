@@ -10,13 +10,8 @@ function Contact() {
     return (
         <section id="contact" className="py-5 bg-black text-light" data-aos="fade-down">
             <div className="container">
-                <p className="section-kicker">Contact</p>
-                <h2 className="mb-4">For auditions, bookings, and representation inquiries.</h2>
+                <h2 className="mb-4">Contact</h2>
                 <div className="contact-grid">
-                    <a className="contact-card" href={"mailto:jamesmacapagal@icloud.com"}>
-                        <span>Direct</span>
-                        <strong>jamesmacapagal@icloud.com</strong>
-                    </a>
                     <a className="contact-card" href={"mailto:socaltalentagency@gmail.com"}>
                         <span>LA / ATB</span>
                         <strong>So Cal Talent</strong>

@@ -2,11 +2,10 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import About from './components/About';
 import Resume from './components/Resume';
 import Reels from './components/Reels';
-import Voiceover from './components/Voiceover';
 import Contact from './components/Contact';
+import HeadshotGallery from './components/HeadshotGallery';
 
 function App() {
 
@@ -15,8 +14,7 @@ function App() {
             <Navbar/>
             <Hero/>
             <Reels/>
-            <Voiceover/>
-            <About/>
+            <HeadshotGallery/>
             <Resume/>
             <Contact/>
         </div>

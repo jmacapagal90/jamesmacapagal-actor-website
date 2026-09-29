@@ -6,19 +6,29 @@ function Hero() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const images = [
         {
-            src: `${process.env.PUBLIC_URL}/James_Macapagal_Commercial_2025.jpg`,
+            src: `${process.env.PUBLIC_URL}/James_Macapagal_Commercial_2026.jpg`,
             label: 'Commercial',
             alt: 'James Macapagal commercial headshot'
         },
         {
-            src: `${process.env.PUBLIC_URL}/James_Macapagal_Theatrical_2025.jpg`,
+            src: `${process.env.PUBLIC_URL}/James_Macapagal_Theatrical_2026.jpg`,
             label: 'Theatrical',
             alt: 'James Macapagal theatrical headshot'
         },
         {
-            src: `${process.env.PUBLIC_URL}/James_Macapagal_Comedic.jpg`,
-            label: 'Comedic',
-            alt: 'James Macapagal comedic headshot'
+            src: `${process.env.PUBLIC_URL}/James_Macapagal_Commercial_Sports.jpg`,
+            label: 'Commercial Sports',
+            alt: 'James Macapagal commercial sports headshot'
+        },
+        {
+            src: `${process.env.PUBLIC_URL}/James_Macapagal_Suit.jpg`,
+            label: 'Suit',
+            alt: 'James Macapagal suit headshot'
+        },
+        {
+            src: `${process.env.PUBLIC_URL}/James_Macapagal_Theatrical_Character.jpg`,
+            label: 'Theatrical Character',
+            alt: 'James Macapagal theatrical character headshot'
         }
     ];
 
@@ -34,18 +44,10 @@ function Hero() {
     return (
         <section id="hero" className="hero-section">
             <div className="hero-copy" data-aos="fade-up">
-                <p className="hero-kicker">Los Angeles / Chicago</p>
                 <h1>James Macapagal</h1>
-                <p className="hero-subtitle">Actor, comedian, and writer with sharp on-camera instincts and deep improv roots.</p>
                 <div className="hero-actions">
                     <a className="primary-action" href="#reels">Watch Reel</a>
                     <a className="secondary-action" href="#contact">Contact</a>
-                </div>
-                <div className="quick-facts" aria-label="Industry quick facts">
-                    <span>Actor</span>
-                    <span>Comedian</span>
-                    <span>Writer</span>
-                    <span>Improv</span>
                 </div>
             </div>
 
@@ -68,7 +70,6 @@ function Hero() {
                         alt={images[currentImageIndex].alt}
                         className="hero-img"
                     />
-                    <span className="headshot-label">{images[currentImageIndex].label}</span>
                     <button
                         type="button"
                         className="hero-nav hero-nav-right"
@@ -82,7 +83,7 @@ function Hero() {
                         &#8250;
                     </button>
                 </div>
-                <div className="headshot-thumbs" aria-label="Headshot categories">
+                <div className="headshot-thumbs" aria-label="Featured headshots">
                     {images.map((image, index) => (
                         <button
                             key={image.label}
@@ -92,7 +93,6 @@ function Hero() {
                             aria-label={`Show ${image.label} headshot`}
                         >
                             <img src={image.src} alt="" />
-                            <span>{image.label}</span>
                         </button>
                     ))}
                 </div>

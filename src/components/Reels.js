@@ -7,7 +7,7 @@ function Reels() {
         <section id="reels" className="reels-section" data-aos="fade-down">
             <div className="section-heading">
                 <p>Reel</p>
-                <h2>Watch James on camera.</h2>
+                <h2>Reel</h2>
             </div>
             <div className="reels-video">
                 <iframe

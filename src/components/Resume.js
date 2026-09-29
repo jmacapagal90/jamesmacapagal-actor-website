@@ -11,7 +11,7 @@ function Resume() {
         <section id="profiles" className="py-5 bg-black text-white" data-aos="fade-down">
             <div className="container">
                 <p className="section-kicker">Profiles</p>
-                <h2 className="mb-4">Resume and casting profiles.</h2>
+                <h2 className="mb-4">Profiles</h2>
                 <div className="profile-links">
                     <a target="_blank" rel="noreferrer" href="https://resumes.actorsaccess.com/jamesmacapagal">Actors Access</a>
                     <a target="_blank" rel="noreferrer" href="https://www.imdb.com/name/nm10395228/?ref_=ext_shr_lnk">IMDb</a>
